@@ -1,0 +1,176 @@
+body{
+    font-family: arial,sans-serif;
+}
+
+/*---- ROW 1 ----*/
+
+/*- LINKS DE GMAIL e IMÁGENES (color gris) -*/
+.color-grey{
+    color: #000000DE;    
+    font-size: small;
+}
+a:hover.color-grey{
+    color: #000000DE;
+    opacity: .85;
+}
+
+/*- CUADRADOS DE GOOGLE (icono) -*/
+
+.rounded-circle{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.cuadrados-google{
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    background-position: -132px -38px;
+    background-position-x: -132px;
+    background-position-y: -38px;
+    background-image: url('https://ssl.gstatic.com/gb/images/i2_2ec824b0.png');    
+    background-size: 528px 68px;
+    opacity: .55;
+}
+
+a:hover.cuadrados-google{
+    opacity: 0.85;
+    text-decoration: none;
+}
+
+
+/*---- ROW 2 ----*/
+/*- IMAGEN DE GOOGLE -*/
+.google-img{
+    margin-top: 8%;
+}
+.google-img img{
+    max-height: 92px;
+}
+
+/*---- ROW 3---- */
+
+/*- BUSCADOR -*/
+.search-bar{
+    justify-content: center;
+}
+
+.search-bar .col{
+    text-align: -webkit-center;
+}
+
+.search-bar .input-group{
+    max-width: 50%;
+    height: 100%;
+}
+
+.search-bar .input-group-text{
+    border-radius: 50px;
+    height: 100%;
+}
+
+.search-bar .input-group-append .input-group-text{
+    padding-right: 20px;
+}
+
+.search-bar .input-group-prepend .input-group-text{
+    padding-left: 20px;
+}
+
+.form-control{
+    height: 44px;
+    color:rgba(0,0,0,.87);
+}
+
+/*- INPUT: focus -*/
+.form-control:focus{
+    color:rgba(0,0,0,.87);
+    border: 1px solid #ced4da;
+    outline: 0;
+    box-shadow: none;
+}
+
+/*- MICROFONO -*/
+
+.search-bar a{
+    max-width: 10px;
+}
+
+.search-bar a img{
+    max-width: 15px;
+}
+
+/*---- ROW 4: ----*/
+/*- GOOGLE BUTTONS: buscar + voy a tener suerte -*/
+
+.google-buttons input{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+#result{
+    text-align: -webkit-center;
+    background-color: #000;
+}
+
+/*---- ROW 5: ----*/
+
+.google-english{
+    color: #222222;
+    font-size: small;
+}
+.google-english a{
+    color: #1a0dab;
+}
+.google-english a:visited {
+}
+
+
+/*---- FOOTER ----*/
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+    color: #222;
+    background-color: #f2f2f2;
+
+}
+
+.footer div.border{
+    color: #0000008A;
+    height: 40px;
+    padding-left: 27px;
+    font-size: 15px;
+}
+
+.footer div.row{
+    height: 40px;
+    padding-left: 27px;
+}
+
+.links-footer a{
+    color: #5f6368;
+    font-size: 14px;
+}
